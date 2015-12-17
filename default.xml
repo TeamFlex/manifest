@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r3" />
+  
+  <remote name="flex"
+           fetch="https://github.com/FlexMM"
+           revision="mm6.0" />
 
   <remote  name="github"
            fetch=".."
@@ -19,13 +23,13 @@
            sync-j="4" />
 
 <!-- BEGIN FLEXOS -->
-<project path="build" name="FlexMM/build" groups="pdk" >
+<project path="build" name="FlexMM/build" remote="flex" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
-<project path="frameworks/base" name="FlexMM/frameworks_base" />
-<project path="packages/apps/Settings" name="FlexMM/packages_apps_Settings" />
-<project path="vendor/flex" name="FlexMM/vendor_flex" />
-<project path="vendor/namelesssdk" name="FlexMM/nameless_platform_sdk" revision="mm6.0" />
+<project path="frameworks/base" remote="flex" name="FlexMM/frameworks_base" />
+<project path="packages/apps/Settings" remote="flex" name="FlexMM/packages_apps_Settings" />
+<project path="vendor/flex" remote="flex" name="FlexMM/vendor_flex" />
+<project path="vendor/namelesssdk" remote="flex" name="FlexMM/nameless_platform_sdk" />
 <!-- END FLEXOS -->
 <!-- BEGIN CYANOGENMOD -->
   <project path="android" name="CyanogenMod/android" />
