@@ -29,7 +29,6 @@
 <project path="frameworks/base" remote="flex" name="frameworks_base" />
 <project path="packages/apps/Settings" remote="flex" name="packages_apps_Settings" />
 <project path="vendor/flex" remote="flex" name="vendor_flex" />
-<project path="vendor/namelesssdk" remote="flex" name="nameless_platform_sdk" />
 <!-- END FLEXOS -->
 <!-- BEGIN CYANOGENMOD -->
   <project path="android" name="CyanogenMod/android" />
