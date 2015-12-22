@@ -27,6 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 <project path="frameworks/base" remote="flex" name="frameworks_base" />
+<project path="packages/apps/OmniSwitch" remote="flex" name="packages_apps_OmniSwitch" />
 <project path="packages/apps/Settings" remote="flex" name="packages_apps_Settings" />
 <project path="vendor/flex" remote="flex" name="vendor_flex" />
 <!-- END FLEXOS -->
