@@ -26,7 +26,7 @@
 <project path="build" name="build" remote="flex" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
-<project path="external/sepolicy" name="xternal_sepolicy" groups="pdk" remote="flex" />
+<project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="flex" />
 <project path="frameworks/base" remote="flex" name="frameworks_base" />
 <project path="packages/apps/OmniSwitch" remote="flex" name="packages_apps_OmniSwitch" />
 <project path="packages/apps/Settings" remote="flex" name="packages_apps_Settings" />
