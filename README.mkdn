@@ -1,4 +1,4 @@
-FlexOS
+TeamFlex
 ===========
 
 Getting Started
@@ -7,9 +7,9 @@ Getting Started
 To get started with Android/FlexOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the FlexOS trees, use a command like this:
 
-    repo init -u git://github.com/FlexMM/manifest.git -b mm6.0
+    repo init -u git://github.com/TeamFlex/manifest.git -b flexmm
 
 Then to sync up:
 
