@@ -31,6 +31,8 @@
   <project path="vendor/flex" name="vendor_flex" remote="flex" />
   <project path="system/core" name="system_core" remote="flex" />
   <project path="manifest" name="manifest" remote="flex" />
+  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="flex" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="flex" />
   <!-- END FLEXOS -->
 
   <!-- BEGIN CYANOGENMOD -->
