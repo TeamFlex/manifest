@@ -386,15 +386,10 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="aospb" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospb" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
@@ -517,7 +512,12 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="flayr" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="flayr" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="flayr" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flayr" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="flayr" />
+  <project path="packages/apps/Music" name="packages_apps_Music" remote="flayr" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="flayr" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flayr" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flayr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flayr" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="flayr" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flayr" />
