@@ -508,13 +508,13 @@
   <project path="frameworks/av" name="frameworks_av" remote="flayr" />
   <project path="frameworks/base" name="frameworks_base" remote="flayr" />
   <project path="frameworks/native" name="frameworks_native" remote="flayr" />
+  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="flayr" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="flayr" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="flayr" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="flayr" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="flayr" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flayr" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="flayr" />
-  <project path="packages/apps/Music" name="packages_apps_Music" remote="flayr" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="flayr" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flayr" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flayr" />
