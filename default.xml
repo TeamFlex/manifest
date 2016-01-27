@@ -12,7 +12,7 @@
            revision="mm6.0" />
   
   <remote  name="flayr"
-           fetch="https://github.com/FlayrStaging"
+           fetch="https://github.com/TeamFlex"
            revision="mm6.0" />
   
   <remote  name="cm"
