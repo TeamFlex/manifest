@@ -9,10 +9,18 @@
   <remote name="flex"
            fetch="https://github.com/TeamFlex"
            revision="flexmm" />
+           
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod"
+          revision="cm-13.0"
+          review="review.cyanogenmod.org" />
+          
+  <remote name="tm"
+          fetch="https://github.com/TheMuppets"
+          revision="cm-13.0" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
