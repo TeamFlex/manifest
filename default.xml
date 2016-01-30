@@ -9,6 +9,10 @@
   <remote name="flex"
            fetch="https://github.com/TeamFlex"
            revision="flexmm" />
+
+  <remote name="flex-devices"
+           fetch="https://github.com/flex-devices"
+           revision="flexmm" />
            
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
