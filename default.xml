@@ -42,14 +42,15 @@
   <project path="build" name="build" remote="flex" groups="pdk" >
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="flex-devices" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="flex" />
   <project path="frameworks/base" name="frameworks_base" remote="flex" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flex" />
   <project path="vendor/flex" name="vendor_flex" remote="flex" />
   <project path="system/core" name="system_core" remote="flex" />
   <project path="manifest" name="manifest" remote="flex" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="flex" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="flex" />
-  <!-- END FLEXOS -->
+    <!-- END FLEXOS -->
 
   <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -65,7 +66,6 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
