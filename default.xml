@@ -30,7 +30,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
-  <project path="bionic" name="bionic" remote="aospb" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -462,7 +461,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="system_bt" remote="aospb" />
-  <project path="system/core" name="system_core" remote="aospb" />
   <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="system_keymaster" remote="aospb" />
@@ -485,14 +483,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="aospb" />
-
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
-
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="prebuilt" remote="aospb" />
 
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="aospb" />
@@ -505,11 +498,13 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
   
   <!-- FlayrOS Manifest -->
+  <project path="bionic" name="bionic" remote="flayr" />
   <project path="external/sepolicy" name="external_sepolicy" remote="flayr" />
   <project path="frameworks/av" name="frameworks_av" remote="flayr" />
   <project path="frameworks/base" name="frameworks_base" remote="flayr" />
   <project path="frameworks/native" name="frameworks_native" remote="flayr" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="flayr" />
+  <project path="manifest" name="manifest" remote="flayr" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="flayr" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="flayr" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="flayr" />
@@ -523,6 +518,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="flayr" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flayr" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="flayr" />
+  <project path="system/core" name="system_core" remote="flayr" />
   <project path="system/media" name="system_media" remote="flayr" />
   <project path="vendor/flex" name="vendor_flex" remote="flayr" />
   <!-- END FlayrOS Manifest -->
