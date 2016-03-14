@@ -502,7 +502,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="flayr" />
   <project path="frameworks/base" name="frameworks_base" remote="flayr" />
   <project path="frameworks/native" name="frameworks_native" remote="flayr" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospb" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="flayr" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="flayr" />
   <project path="manifest" name="manifest" remote="flayr" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="flayr" />
