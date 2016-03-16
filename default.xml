@@ -18,7 +18,7 @@
            fetch="https://github.com/CyanogenMod"
            revision="cm-13.0" />
 
-  <default revision="refs/tags/android-6.0.1_r22"
+  <default revision="refs/tags/android-6.0.1_r17"
            remote="aosp"
            sync-j="8"
 	   sync-c="true"
