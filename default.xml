@@ -28,9 +28,6 @@
 	   sync-f="true"
 	   sync-q="true" />
 
-  <project path="build" name="build" remote="flayr" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
@@ -101,7 +98,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="flayr" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aospb" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -412,7 +408,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospb" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospb" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flayr" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aospb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -501,8 +496,12 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
   
   <!-- FlayrOS Manifest -->
+  <project path="build" name="build" remote="flayr" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="bionic" remote="flayr" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="flayr" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="flayr" />
   <project path="external/sepolicy" name="external_sepolicy" remote="flayr" />
   <project path="frameworks/av" name="frameworks_av" remote="flayr" />
   <project path="frameworks/base" name="frameworks_base" remote="flayr" />
@@ -510,10 +509,11 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="flayr" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="flayr" />
   <project path="manifest" name="manifest" remote="flayr" />
-  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="flayr" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="flayr" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="flayr" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="flayr" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flayr" />
+  <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="flayr" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="flayr" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flayr" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="flayr" />
@@ -529,7 +529,6 @@
   <!-- END FlayrOS Manifest -->
   
   <!-- CM repos for compatibility -->
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="cm" />
 </manifest>
