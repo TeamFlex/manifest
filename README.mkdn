@@ -11,7 +11,7 @@ To get started with FlayOS, you'll need to get familiar with
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
-To initialize your local repository using the AOSPB trees, use this command:
+To initialize your local repository using the FlayOS trees, use this command:
 
 
 	repo init -u git://github.com/TeamFlex/manifest.git -b flayrmm
