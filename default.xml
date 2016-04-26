@@ -485,7 +485,7 @@
   <project path="external/DUtils" name="android_external_DUtils" remote="flayr" />
   <project path="external/sepolicy" name="external_sepolicy" remote="flayr" />
   <project path="frameworks/av" name="frameworks_av" remote="flayr" />
-  <project path="frameworks/base" name="frameworks_base" remote="flayr" />
+  <project path="frameworks/base" name="frameworks_base" remote="flayr" revision="DUI" />
   <project path="frameworks/native" name="frameworks_native" remote="flayr" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="flayr" />
   <project path="manifest" name="manifest" remote="flayr" />
@@ -498,13 +498,13 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="flayr" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flayr" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flayr" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flayr" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flayr" revision="DUI" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="flayr" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flayr" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="flayr" />
   <project path="system/core" name="system_core" remote="flayr" />
   <project path="system/media" name="system_media" remote="flayr" />
-  <project path="vendor/flex" name="vendor_flex" remote="flayr" />
+  <project path="vendor/flex" name="vendor_flex" remote="flayr" revision="DUI" />
   <!-- END FlayrOS Manifest -->
   
   <!-- CM repos for compatibility -->
