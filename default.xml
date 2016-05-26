@@ -4,12 +4,12 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="https://review.slimroms.org/"/>
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+	   sync-c="true" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
